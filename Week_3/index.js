@@ -76,32 +76,32 @@ console.log(Date.now() / 1000)
 
 //LEVEL 2 
 // 1 
-/*let enterTriB = +prompt('What is the base of the triangle?');
+let enterTriB = +prompt('What is the base of the triangle?');
 let enterTriH = +prompt('What is the height of the triangle?');
 let area = (0.5 * enterTriB * enterTriH); 
-alert(`The area of the triangle is ${area}`); */
+alert(`The area of the triangle is ${area}`);
 
 // 2 
-/* let sideA = +prompt('Enter side a')
+let sideA = +prompt('Enter side a')
 let sideB = +prompt('Enter side b')
 let sideC = +prompt('Enter side c')
 let perimeter = (sideA) + (sideB) + (sideC)
-alert(`The perimeter of the triangle is ${perimeter}`) */
+alert(`The perimeter of the triangle is ${perimeter}`)
 
 // 3 
-/* let length = +prompt('What is the length?');
+let length = +prompt('What is the length?');
 let width = +prompt('What is the width?');
 let areaRec = length * width;
 let perimeterTri = 2 * (length + width);
 alert(areaRec);
-alert(perimeterTri); */
+alert(perimeterTri);
 
 // 4 
-/*let radius = +prompt('What is the radius of the circle?')
+let radius = +prompt('What is the radius of the circle?')
 let circleArea = Math.PI * radius * radius
 let circumference = 2 * Math.PI * radius
 alert(circleArea)
-alert(circumference) */
+alert(circumference)
 
 // 5 
 let y = '2x - 2'
@@ -126,10 +126,10 @@ let Y = (x * x) + (6 * x) + 9
 console.log(Y)
 
 // 9
-/*let enterHours = prompt('Enter hours');
+let enterHours = prompt('Enter hours');
 let enterRate = prompt('Enter rate per hour')
 let pay = enterHours * enterRate
-alert(`Your weekly earning is ${pay}`) */
+alert(`Your weekly earning is ${pay}`)
 
 // 10 
 let name = 'Lina';
@@ -153,16 +153,16 @@ let myAge = 40, yourAge = 25;
   : console.log(`You are ${ageDiff} older than me`);
 
 // 13
-/*let birthYear = prompt('Enter birth year:');
+let birthYear = prompt('Enter birth year:');
 let userAge = 2022 - birthYear
 let result = (userAge >= 18)
   ? alert(`You are ${userAge}. You are old enough to drive`)
-  : alert(`You are ${userAge}. You will be allowed to drive after ${18 - userAge} years`); */
+  : alert(`You are ${userAge}. You will be allowed to drive after ${18 - userAge} years`); 
 
 // 14
-/*let noOfYears = prompt('Enter number of years you live:');
+let noOfYears = prompt('Enter number of years you live:');
 let noOfSeconds = 31557600 * noOfYears;
-alert(`You lived ${noOfSeconds} seconds.`); */
+alert(`You lived ${noOfSeconds} seconds.`);
 
 // 15
 let time1 = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()} ${now.getHours()}:${now.getMinutes()}`;
