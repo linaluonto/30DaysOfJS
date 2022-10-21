@@ -105,8 +105,10 @@ alert(circumference)
 
 // 5 
 let y = '2x - 2'
+// Compare with y = mx + c. Slope = m, y-intercept = c and x-intercept = -c/m
 let slope = +y[0]
 console.log(slope)
+//Index at y[3] is the sign (+ or -) of c
 let xIntercept = -((y[3] + y[5]) / (y[0]))
 console.log(xIntercept)
 let yIntercept = +(y[3] + y[5])
